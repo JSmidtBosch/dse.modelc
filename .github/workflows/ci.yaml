@@ -6,7 +6,7 @@ on:  # yamllint disable-line rule:truthy
   push:
     branches: [main, devel]
     tags:
-      - 'v*.*.*'
+      - 'v*.*.**'
   pull_request:
     branches: [main, devel]
 
